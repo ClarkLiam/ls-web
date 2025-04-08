@@ -1,0 +1,12 @@
+/*!
+Fonts.css
+*/
+
+/* Designer */
+@font-face {
+    font-family: Designer;
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url(Designer.ttf);
+    }

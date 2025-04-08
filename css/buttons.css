@@ -1,0 +1,73 @@
+/*Buttons*/
+
+.btn{
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+/*White Hollow*/
+.btn.white{
+    color: var(--text-color);
+    border: 2px solid var(--text-color);
+}
+.btn.white a{
+    color: var(--text-color);
+}
+
+.btn.white:hover, .btn.white a:hover{
+    background-color: var(--text-color);
+    color: var(--bg-color);
+}
+
+/*Black Hollow*/
+.btn.black{
+    color: var(--bg-color);
+    border: 2px solid var(--bg-color);
+}
+.btn.black a{
+    color: var(--bg-color);
+}
+
+.btn.black:hover, .btn.black a:hover{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+/*Accent1 Hollow*/
+.btn.accent1{
+    color: var(--accent-color-1);
+    border: 2px solid var(--accent-color-1);
+}
+.btn.accent1 a{
+    color: var(--accent-color-1);
+}
+
+.btn.accent1:hover, .btn.accent1 a:hover{
+    background-color: var(--accent-color-1);
+    color: var(--bg-color);
+}
+
+/*Accent2 Hollow*/
+.btn.accent2{
+    color: var(--accent-color-2);
+    border: 2px solid var(--accent-color-2);
+}
+.btn.accent2 a{
+    color: var(--accent-color-2);
+}
+
+.btn.accent2:hover, .btn.accent2 a:hover{
+    background-color: var(--accent-color-2);
+    color: var(--text-color);
+}
+
+
+.btn-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

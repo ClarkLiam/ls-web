@@ -1,0 +1,46 @@
+.status{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    background: var(--bg-color);
+    color: var(--text-color);
+    flex-direction: column;
+    margin-left: 5rem;
+}
+
+.status-group{
+    margin-bottom: 5vh;
+}
+
+.status-state{
+    display: flex;
+    flex-direction: colums;
+    margin: 2rem;
+}
+
+.status-state i{
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+i#ok{
+    color: #00ff00;
+}
+
+i#error{
+    color: #ff0000;
+}
+
+i#warning{
+    color: #ffcc00;
+}
+
+i#info{
+    color: #00ccff;
+}
+
+i#offline{
+    color: #bcbcbc;
+}
